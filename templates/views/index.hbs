@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{>headerlinks}}
+</head>
+<body>
+    {{>navbar}}
+    <!-- main header -->
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-mid-10 col-12  mx-auto">
+                <div class="row">
+                <!-- right side div    -->
+                <div class="col-md-6 col-12 main_header_left">
+                    <p>Welcome to Weather App</p>
+                    <h1>Get the latest <span class="txt-color">weather</span> information of your city</h1>
+                    <a href="/weather"><button>check now</button></a>
+                </div>
+                <!-- left side div    -->
+                {{>slider}}
+                </div>
+            </div>
+        </div>
+    </div>           
+</body>
+</html>

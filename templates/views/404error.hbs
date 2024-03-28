@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{>headerlinks}}
+</head>
+<body>
+    {{>navbar}}
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-mid-10 col-12  mx-auto">
+                
+                <!-- right side div    -->
+                <div class="col-md-6 col-12 mx-auto main_header_right_img align-items-center">
+                    <figure class="errimg">
+                        <img src="images/404 error with a landscape-bro.png" alt="farooq" class="img-fluid">
+                    </figure>
+                </div>
+                
+                <!-- left side div    -->
+                <div class="errdata">
+                    <p>Welcome to Weather App</p>
+                    <h1>{{errmsg}}</h1>
+                    <a href="/"><button>Go Back</button></a>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
