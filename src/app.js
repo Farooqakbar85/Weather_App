@@ -14,8 +14,10 @@ app.use(express.static(staticPath))
 
 // setting view engine
 app.set("view engine" , "hbs");
+
 // setting views in template file
 app.set("views" , viewPath);
+
 // registering the partials
 hbs.registerPartials(partialPath)
 
