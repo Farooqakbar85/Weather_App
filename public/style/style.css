@@ -297,7 +297,7 @@ sup{
     .main_header_right .carousel-item{
         height: 35rem;
         width: 30rem;
-        margin-left: 8rem;
+        margin-left: 0rem;
     }
         .tempinformation{
             width: 30rem;
@@ -308,5 +308,70 @@ sup{
             
             
         }
-       
+        .main_header_left button{
+            border: none;
+            padding: 2rem;
+            background-color: #929292;
+            color: #fff;
+            font-size: 1.5rem;
+            text-transform: capitalize;
+            border-radius: 12rem;
+            box-shadow: 0 8px 6px -6px #000 ;
+        }
+        .main_header_left{
+            height: 40rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+        }
+        .main_header_left p{
+            font-size: 2rem;
+        }
+        .main_header_left h1{
+            font-size: 3rem;
+            margin: 1rem 0 4rem 0;
+            text-transform: capitalize;
+        }
+        .main_header_left .txt-color{
+            color: var(--main-color);
+        }
+        .main_header_left_2{
+            
+        }
+        .main_header_left_2 p{
+            font-size: 2rem;
+        }
+        .main_header_left_2 h1{
+            font-size: 3rem;
+            margin: 1rem 0 4rem 0;
+            text-transform: capitalize;
+        }
+        .main_header_left_2 .txt-color{
+            color: var(--main-color);
+        }
+        .main_header_left_2 button{
+            border: none;
+            padding: 2rem;
+            background-color: #929292;
+            color: #fff;
+            font-size: 2rem;
+            text-transform: capitalize;
+            border-radius: 12rem;
+            box-shadow: 0 8px 6px -6px #000 ;
+        }
+        .main_header_left_2 button:hover{
+            background-color: var(--main-color);
+        }
+        .main_header_right_2 figure{
+            height: 20rem;
+            width: 30rem;
+            margin-left: 1rem;
+            margin-top: 4rem;
+            margin-bottom: 14rem;
+        }
+        .main_header_right_2 figure image{
+            filter: drop-shadow(0 0.5rem 1rem rgb(0, 0, 0));
+        }
+        
 }
